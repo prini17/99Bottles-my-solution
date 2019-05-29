@@ -40,7 +40,7 @@ public class Lyrics {
 	}
 
 	private void createLyrics() {
-		this.lyrics = new Lyrics().makeVerse(this.bottleNumber);
+		this.lyrics = this.makeVerse(bottleNumber);
 	}
 
 	public StringBuffer getLyricsOfSong() {
